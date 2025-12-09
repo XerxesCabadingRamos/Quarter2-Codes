@@ -1,0 +1,17 @@
+destinations = []  # Initialize an empty list
+print("Welcome to your Travel Itinerary Planner!")
+print("Please enter 5 travel destinations:")
+for i in range(5):
+    destination = input("Destination " + str(i + 1) + ": ")
+    destinations.append(destination)
+print("\nYour original travel itinerary:")
+for i in range(5):
+    print(str(i + 1) + ". " + destinations[i])
+print("\nTime to update your itinerary!")
+new_second = input("Enter the new 2nd destination: ")
+new_fifth = input("Enter the new 5th destination: ")
+destinations[1] = new_second  # 2nd element has index 1
+destinations[4] = new_fifth   # 5th element has index 4
+print("\nYour updated travel itinerary:")
+for i in range(5):
+    print(str(i + 1) + ". " + destinations[i])
