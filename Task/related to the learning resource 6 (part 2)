@@ -1,0 +1,28 @@
+1. Given an array of exam scores, how would you use built-in methods to:
+
+Find the highest and lowest scores?
+ - max() & min()
+Sort the scores from lowest to highest?
+ - sort()
+Remove duplicate scores?
+ - set()
+
+
+2. You are given a string of characters stored in an array. How can built-in functions help you:
+
+Count how many characters there are?
+ - len()
+Reverse the order of characters?
+ - reverse()
+Join them into a complete word or sentence?
+ - "".join()
+
+
+3. Suppose you are developing a travel itinerary planner where destinations are stored in an array. How would you use array methods to:
+
+Add a destination at the beginning of the trip?
+ - insert()
+Remove the last destination due to a cancellation?
+ - pop()
+Check if a certain location is part of the itinerary?
+ - in
