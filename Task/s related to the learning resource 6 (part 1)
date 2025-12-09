@@ -1,0 +1,43 @@
+1. Grocery List Scenario:
+Imagine you’re maintaining a grocery list using an array. How would you use built-in methods to:
+
+Add a new item to the end of the list?
+- I'd use .append
+
+Remove the last item from the list?
+- I'd use .pop
+
+Find the position of a specific item?
+- I'd use .index
+
+
+2. Playlist Management:
+
+If you're building a music app that manages playlists using arrays, how can built-in methods like sort() or reverse() help enhance the user experience?
+ - sort() helps keep things organized however the user would like
+ - reverse() could be useful in reversing said organization
+
+
+3. Daily Schedule Organizer:
+Your daily schedule is stored as an array of tasks. Which built-in array methods would help you:
+
+Reorder tasks by priority?
+ - sort()
+Remove a cancelled task?
+ - remove("")
+Insert a new task in a specific time slot?
+ - .insert(x, "")
+
+
+4. Friend List in a Social App:
+
+You want to find if a person is already in your friend list and add them only if they’re not. Which built-in method could help you achieve this, and how?
+
+friends = ["Friend1", "Friend2", "Friend3"]
+
+new_friend = str(input("Please input Friend name: "))
+
+if new_friend not in friends:
+    friends.append(new_friend)
+
+print(friends)
